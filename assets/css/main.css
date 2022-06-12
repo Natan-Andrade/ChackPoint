@@ -480,24 +480,24 @@ section{
     margin: 20px 0px;
 }
 
-.btn{
+.slide-description .btn-banner{
     display: inline-block;
     padding: .5rem 1.3rem;
     font-size: .8rem;
     border: 2px solid #fff;
     color: #fff;
-    background-color: #23232e7e;
+    background-color: #000000a6;
     border-radius: 2rem;
     line-height: 1;
     margin: 0 .2rem;
     transition: .3s;
     text-transform: uppercase;
-    
 }
 
-.btn.transparent:hover{
+.btn-banner.transparent:hover{
     background-color: #fff;
     color: #23232e;
+    box-shadow: #fff 0px 0px 5px;
 }
 
 .slide-nav-button {
@@ -536,10 +536,10 @@ section{
 @media screen and (max-width: 768px) {
 
     .slide-image {
-        width: 220%;
+        width: 300%;
     }
     .slide-description {
-        padding: 10px;
+        padding: 40px 20px;
     }
     
     .slide-description h3 {
@@ -548,7 +548,15 @@ section{
     }
 
     .slide-description p {
-        display: none;
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+
+    .slide-description .btn-banner{
+        display: inline-block;
+        padding: .5rem 1.3rem;
+        font-size: .4rem;
+        border: 1px solid #fff;
     }
 
     .slide-nav-button {
