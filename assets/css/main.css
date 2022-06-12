@@ -455,15 +455,16 @@ section{
 }
 
 .slide-image {
+    
     width: 180%;
 }
 
 .slide-description {
     color: #fff;
     position: absolute;
-    padding: 30px;
-    bottom: 0;
+    padding: 100px 50px;
     width: 100%;
+    bottom: 0;
 }
 
 .slide-description h3 {
@@ -476,6 +477,27 @@ section{
 .slide-description p {
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
+    margin: 20px 0px;
+}
+
+.btn{
+    display: inline-block;
+    padding: .5rem 1.3rem;
+    font-size: .8rem;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #23232e7e;
+    border-radius: 2rem;
+    line-height: 1;
+    margin: 0 .2rem;
+    transition: .3s;
+    text-transform: uppercase;
+    
+}
+
+.btn.transparent:hover{
+    background-color: #fff;
+    color: #23232e;
 }
 
 .slide-nav-button {
