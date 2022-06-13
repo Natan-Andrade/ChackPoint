@@ -23,6 +23,7 @@ header{
     background-color: #23232e;
     width: 100%;
     z-index: 1000;
+    filter: drop-shadow(10px 2px 10px rgba(0, 0, 0, 0.663));
 }
 
 section{
@@ -455,7 +456,7 @@ section{
 }
 
 .slide-image {
-    
+    filter: brightness(0.80) drop-shadow(10px 2px 10px rgba(0, 0, 0, 0.448));
     width: 180%;
 }
 
