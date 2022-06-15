@@ -430,12 +430,31 @@ header > section{
         transform: translateY(15px);
     }
 
+    /*Nav*/
+    .bg-banner {
+        max-height: 500px;
+    }
     /*Quests*/
 
     .row {
         flex-wrap: wrap;
     }
 
+    .container-content {
+        width: 100%;
+        padding: 30px;
+    }
+
+}
+
+/*NAV*/
+
+.bg-banner {
+    width: 100%;
+    height: 800px;
+    background-image: url("/assets/imgs/ponte\ estaiada.jpg");
+    background-size: cover;
+    background-position: 50%;
 }
 
 /* Slides */
@@ -555,7 +574,7 @@ header > section{
 @media screen and (max-width: 768px) {
 
     .slide-image {
-        width: 300%;
+        width: 200%;
     }
     .slide-description {
         padding: 40px 20px;
@@ -620,13 +639,18 @@ header > section{
 
     /*Section 2*/
 
-    .row {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-content {
+    width: 100%;
+    padding: 30px;
+}
 
 .container-content > h3 {
     text-align: center;

@@ -441,12 +441,31 @@ header > section{
         transform: translateY(15px);
     }
 
+    /*Nav*/
+    .bg-banner {
+        max-height: 500px;
+    }
     /*Quests*/
 
     .row {
         flex-wrap: wrap;
     }
 
+    .container-content {
+        width: 100%;
+        padding: 30px;
+    }
+
+}
+
+/*NAV*/
+
+.bg-banner {
+    width: 100%;
+    height: 800px;
+    background-image: url("/assets/imgs/ponte\ estaiada.jpg");
+    background-size: cover;
+    background-position: 50%;
 }
 
 /* Slides */
@@ -566,7 +585,7 @@ header > section{
 @media screen and (max-width: 768px) {
 
     .slide-image {
-        width: 300%;
+        width: 200%;
     }
     .slide-description {
         padding: 40px 20px;
@@ -631,13 +650,18 @@ header > section{
 
     /*Section 2*/
 
-    .row {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container-content {
+    width: 100%;
+    padding: 30px;
+}
 
 .container-content > h3 {
     text-align: center;
@@ -875,8 +899,31 @@ header > section{
         <p>Venha planejar a viagem dos seus sonhos<p>
     </section>
 
-    
-    <!--slider-->
+    <nav>
+        <div class="bg-banner"></div>
+    </nav>
+
+    <!--SECTION 1-->
+
+    <div class="row">
+        <div class="container-content">
+            <img class="icon" src="./assets/icons/shield.png" alt="security">
+            <h3>Viaje com segurança</h3>
+            <p>In officia non laboris Lorem dolore consequat aliqua. Excepteur laborum laboris nostrud qui culpa do id ipsum officia id.</p>
+        </div>
+
+        <div class="container-content">
+            <img class="icon" src="./assets/icons/check.png" alt="check">
+            <h3>ATENDIMENTO ESPECIALIZADO</h3>
+            <p>In officia non laboris Lorem dolore consequat aliqua. Excepteur laborum laboris nostrud qui culpa do id ipsum officia id. Magna nulla officia cillum irure elit duis eu elit id sunt quis cillum.</p>
+        </div>
+
+        <div class="container-content">
+            <img class="icon" src="./assets/icons//car.png" alt="confort">
+            <h3>O CONFORTO QUE VOCÊ MERECE</h3>
+            <p>In officia non laboris Lorem dolore consequat aliqua. In officia non laboris Lorem dolore consequat aliqua.</p>
+        </div>
+    </div>
 
     <nav class="wrapper">
         <div class="slide-wrapper" data-slide="wrapper">
@@ -924,28 +971,6 @@ header > section{
             </div>
         </div>
     </nav>
-
-    <!--SECTION 1-->
-
-            <div class="row">
-                <div class="container-content">
-                    <img class="icon" src="./assets/icons/shield.png" alt="security">
-                    <h3>Viaje com segurança</h3>
-                    <p>In officia non laboris Lorem dolore consequat aliqua. Excepteur laborum laboris nostrud qui culpa do id ipsum officia id.</p>
-                </div>
-
-                <div class="container-content">
-                    <img class="icon" src="./assets/icons/check.png" alt="check">
-                    <h3>ATENDIMENTO ESPECIALIZADO</h3>
-                    <p>In officia non laboris Lorem dolore consequat aliqua. Excepteur laborum laboris nostrud qui culpa do id ipsum officia id. Magna nulla officia cillum irure elit duis eu elit id sunt quis cillum.</p>
-                </div>
-
-                <div class="container-content">
-                    <img class="icon" src="./assets/icons//car.png" alt="confort">
-                    <h3>O CONFORTO QUE VOCÊ MERECE</h3>
-                    <p>In officia non laboris Lorem dolore consequat aliqua. In officia non laboris Lorem dolore consequat aliqua.</p>
-                </div>
-            </div>
 
     <script src="./assets/js/slides.js"></script>
     <script>
