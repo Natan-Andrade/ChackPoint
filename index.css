@@ -88,12 +88,7 @@ header > section{
 }
 
 .logo{
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    line-height: 3rem;
+    width: 70%;
 }
 
 .btn{
@@ -302,6 +297,9 @@ header > section{
 }
 
 @media(max-width: 920px){
+    .logo{
+        width: 30%;
+    }
     .hamburguer-menu-container{
         display: flex;
     }
@@ -316,8 +314,8 @@ header > section{
 
     .nav-btn{
         position: fixed;
-        height: calc(100vh - 3rem);
-        top: 3rem;
+        height: calc(101vh - 2rem);
+        top: 2rem;
         left: 0;
         width: 100%;
         background-color: #23232e;
@@ -434,6 +432,15 @@ header > section{
     .bg-banner {
         max-height: 500px;
     }
+
+    /*bg*/
+
+    .bg-content {
+        width: 100%;
+        padding: 150px 30px !important;
+        font-size: 20px !important;
+    }
+
     /*Quests*/
 
     .title-box {
@@ -466,7 +473,50 @@ header > section{
     background-position: 50%;
 }
 
+.bg-content {
+    color: #fff;
+    width: 100%;
+    padding: 300px 50px;
+    font-size: 30px;
+}
+
+.bg-content img {
+    width: 25%;
+}
+
 /* Slides */
+
+.slide {
+    margin: 20px 0px;
+    padding: 30px 0px;
+    background-color: #23232e;
+    color: #fff;
+}
+
+.btn-slider {
+    text-align: center;
+}
+
+.slide .btn-banner{
+    display: inline-block;
+    padding: .5rem 4rem;
+    font-size: 1.3rem;
+    border: 2px solid #fff;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 2rem;
+    line-height: 1;
+    margin: 0.2rem;
+    transition: .3s;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.title-slide {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
 
 .wrapper {
     display: flex;
@@ -581,6 +631,10 @@ header > section{
 
 
 @media screen and (max-width: 768px) {
+
+    .logo{
+        width: 45%;
+    }
 
     .slide-image {
         width: 200%;
