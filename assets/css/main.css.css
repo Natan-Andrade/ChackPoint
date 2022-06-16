@@ -436,6 +436,15 @@ header > section{
     }
     /*Quests*/
 
+    .title-box {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .title-box h2 {
+        font-size: 20px !important;
+    }
+
     .row {
         flex-wrap: wrap;
     }
@@ -639,6 +648,25 @@ header > section{
 
     /*Section 2*/
 
+.box-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.title-box {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.235) 0px 10px 20px;
+}
+
+.title-box > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -652,7 +680,7 @@ header > section{
     padding: 30px;
 }
 
-.container-content > h3 {
+section .container-content > h3 {
     text-align: center;
     margin: 10px;
     text-transform: uppercase;
@@ -662,4 +690,29 @@ header > section{
     width: 100px;
     height: 100px;
     margin: 10px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: rgb(249, 249, 249);
+}
+
+footer .row {
+    text-align: left;
+}
+
+footer .container-content > h3 {
+    text-align: left;
+}
+
+footer .row > p,a {
+    color: black;
+    text-align: left;
+}
+
+footer .container-bottom {
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #23232e;
 }
